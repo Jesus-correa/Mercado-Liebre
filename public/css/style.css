@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap'); 
+*{
+font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+}
+
+header{
+    background-color: #eac926;
+}
+h3{
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+
+.producto{
+    font-size: 16px;
+}
+
+.Negrita{
+    font-weight: bold;
+}
+
+footer{
+    text-align:center;
+
+}
+
+main{
+    margin: auto;
+    width:90%;
+}
+
+br{
+    height: 10px;
+}
+
+div{
+    padding:15px;
+    border-top: solid 1px #ebebeb;
+}
