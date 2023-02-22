@@ -11,13 +11,17 @@ header{
     background-color: #eac926;
     padding: 20px;
 }
+.div-header{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .logo{
-    width: 200px;
+    width:50%;
 }
 
 .barra{
-    justify-content: center;
-    align-items: center;
+    width:100%;
 }
     
 .credito{
@@ -54,7 +58,6 @@ h3{
 .detalles{
     display: flex;
     flex-wrap: wrap;
-   /*  justify-content: flex-start; */
 }
 
 .precio{
@@ -99,12 +102,7 @@ br{
     border-top: solid 1px #ebebeb;
 
 }
-/* border: 1px solid #39b54a;
-background-color: #FFF;
-border-radius: 50%;
-position: absolute;
-right: px;
-top: px; */
+
 
 .imagen{
     display: flex;
@@ -138,6 +136,13 @@ top: px; */
    .listado{
     display: flex;
     justify-content: space-between;
+    }
+    .logo{
+        width: 200px;
+    }
+    
+    .barra{
+        width: 200px
     }
 
 }
