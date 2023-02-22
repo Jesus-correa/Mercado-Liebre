@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap'); 
 *{
-font-family: 'Roboto', sans-serif;
-margin:0px;
-padding:0px;
-box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font: size 62.5%;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
 }
 
 header{
@@ -49,12 +50,22 @@ a{
 h3{
     font-size: 24px;
 }
+
+.detalles{
+    display: flex;
+    flex-wrap: wrap;
+   /*  justify-content: flex-start; */
+}
+
 .precio{
     font-size: 18px;
+    
 }
 
 .descuento{
     font-size: 16px;
+    padding: 5px;
+    color:#39b54a;
 }
 
 .producto{
@@ -65,23 +76,9 @@ h3{
     font-weight: bold;
 }
 .pc, .celular, .cafe, .smart{
-    width: 200px;
+    width: 80%;
 }
 
-/* .precio, .descuento, .producto{
-    box-sizing:content-box;
-    display:block;
-    font-size: 16px;
-    padding:5px;
-    width:30px;
-    height:30px;
-    border:1px solid #39b54a;
-    background-color:#fff;
-    border-radius:50px;
-    position:absolute;
-    right:20px;
-    top:-15px;
-} */
 
 footer{
     text-align:center;
@@ -102,6 +99,20 @@ br{
     border-top: solid 1px #ebebeb;
 
 }
+/* border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: px;
+top: px; */
+
+.imagen{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
 
 @media (min-width:768px){
     .div-header{
@@ -123,6 +134,12 @@ br{
    li{
     margin: 0 10px;
    }
+
+   .listado{
+    display: flex;
+    justify-content: space-between;
+    }
+
 }
 
 @media (min-width:1200px){
