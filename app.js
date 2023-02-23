@@ -18,3 +18,8 @@ app.listen(3000,() => {
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/home.html'))
 })
+
+//Funcionalidad de html secundarios
+app.get('/', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/register.html'))
+})

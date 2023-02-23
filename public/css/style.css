@@ -16,6 +16,9 @@ header{
     flex-wrap: wrap;
     justify-content: center;
 }
+.banner{
+    width:100vw;
+}
 .logo{
     width:50%;
 }
@@ -51,8 +54,10 @@ a{
 .nav-superior{
     display:none;
 }
+
 h3{
     font-size: 24px;
+    
 }
 
 .detalles{
@@ -99,10 +104,9 @@ br{
 
 .cafetera, .Galaxy, .TV, .macbook{
     padding:15px;
-    border-top: solid 1px #ebebeb;
+    border: solid 20px #ebebeb;
 
 }
-
 
 .imagen{
     display: flex;
@@ -137,6 +141,10 @@ br{
     display: flex;
     justify-content: space-between;
     }
+
+    .listado div{
+        width:80%;
+    }
     .logo{
         width: 200px;
     }
@@ -154,5 +162,8 @@ br{
     }
     .logo{
         width: 300px;
+    }
+    .na-inferior{
+        display: flex;
     }
 }
