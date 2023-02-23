@@ -5,7 +5,6 @@
     padding:0px;
     box-sizing: border-box;
 }
-
 header{
     background-color: #eac926;
     display: flex;
@@ -56,6 +55,11 @@ main{
 }
 
 .radio{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+input, select{
+    width:80vw;
+    align-self: center;
 }
