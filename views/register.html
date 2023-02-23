@@ -4,21 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/register.css">
     <title>Creá tu cuenta</title>
 </head>
 <body>
+    <header>
+        <img src="../images/logo-mercado-liebre.svg" class="logo"></img>
+        <i class="fas fa-info-circle"></i>
+    </header>
+    <br>
+
     <main>
-        <form>
-            <label>Nombre y Apellido</label>
-                <input type="text" name="nombre y apellido" placeholder="Ejemplo: Juan Perez">
-            <label>Nombre de usuario</label>
-                <input type="text" name="nombre de usuario" placeholder="Escriba el usuario que desea">                
-            <label>Fecha de Nacimiento</label>
-                <input type="number" name="fecha de nacimiento" placeholder="Ejemplo: 03/10/2000">
-            <label>Domicilio</label>
-                <input type="text" name="direccion" placeholder="Ejemplo: Calle 45 #12-45">                                               
-        </form>
+        <h2 class="Dato">Llena los siguientes datos</h2>
+        <section class="caja1">
+           <form class="formulario">
+               <label>Nombre y Apellido</label>
+                    <br>
+                    <input type="text" name="nombre y apellido" placeholder="Ejemplo: Juan Perez">
+                    <br>
+                <label>Nombre de Usuario</label>
+                    <br>
+                    <input type="text" name="nombre de usuario" placeholder="Escriba el usuario que desea">                
+                    <br>
+               <label>Fecha de Nacimiento</label>
+                    <br>
+                    <input type="date" name="fecha de nacimiento">
+                    <br>
+               <label>Domicilio</label>
+                    <br>
+                    <input type="text" name="direccion" placeholder="Ejemplo: Calle 45 #12-45">                                               
+                    <br>
+               <label>Perfil de Usuario:</label>
+                    <br>
+                    <input type="radio" name="perfil" value="Comprar"><label class="perfil" for="Comprar"> Comprar</label>
+                    <br>
+                    <input type="radio" name="perfil" value="Vender"><label class="perfil" for="Vender"> Vender</label>
+                    <br>
+               <label>Categoria de Interés</label>
+                    <br>
+                    <select>
+                        <option>Electro</option>     
+                        <option>Moda</option>    
+                        <option>Hogar</option>    
+                        <option>Juguetería</option>    
+                        <option>Vida Sana</option> 
+                    </select>  
+                    <br>
+                <label>Foto de Perfil</label>
+                    <input type="file" name="avatar" accept=".jpg">
+                    <br>
+                <label>Contraseña</label>
+                    <br>
+                    <input type="text" name="contraseña" placeholder="caracteres alfanumericos">
+                    <br>
+                    <label>Confirmar Contraseña</label>
+                    <br>
+                    <input type="text" name="contraseña" placeholder="caracteres alfanumericos">                    
+
+                    
+            </form>
+        </section>
     </main>
 </body>
 </html>

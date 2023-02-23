@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap'); 
+*{
+    font-family: 'Roboto', sans-serif;
+    font: size 62.5%;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header{
+    border: solid 10px red;
+}
+
+main{
+    border: solid 10px red;
+}
