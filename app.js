@@ -20,6 +20,6 @@ app.get('/', (req, res) => {
 })
 
 //Funcionalidad de html secundarios
-app.get('/', (req, res) => {
+app.get('/views/register.html', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/register.html'))
 })
