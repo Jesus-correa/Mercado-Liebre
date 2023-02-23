@@ -20,30 +20,28 @@
         <h2 class="Dato">Llena los siguientes datos</h2>
         <section class="caja1">
            <form class="formulario">
+            <br>
                <label>Nombre y Apellido</label>
-                    <br>
                     <input type="text" name="nombre y apellido" placeholder="Ejemplo: Juan Perez">
                     <br>
                 <label>Nombre de Usuario</label>
-                    <br>
                     <input type="text" name="nombre de usuario" placeholder="Escriba el usuario que desea">                
                     <br>
                <label>Fecha de Nacimiento</label>
-                    <br>
                     <input type="date" name="fecha de nacimiento">
                     <br>
                <label>Domicilio</label>
-                    <br>
                     <input type="text" name="direccion" placeholder="Ejemplo: Calle 45 #12-45">                                               
                     <br>
                <label>Perfil de Usuario:</label>
-                    <br>
+                    <article class="radio">
                     <input type="radio" name="perfil" value="Comprar"><label class="perfil" for="Comprar"> Comprar</label>
                     <br>
                     <input type="radio" name="perfil" value="Vender"><label class="perfil" for="Vender"> Vender</label>
                     <br>
-               <label>Categoria de Interés</label>
+                    </article>
                     <br>
+               <label>Categoria de Interés</label>
                     <select>
                         <option>Electro</option>     
                         <option>Moda</option>    
@@ -56,14 +54,17 @@
                     <input type="file" name="avatar" accept=".jpg">
                     <br>
                 <label>Contraseña</label>
-                    <br>
                     <input type="text" name="contraseña" placeholder="caracteres alfanumericos">
                     <br>
                     <label>Confirmar Contraseña</label>
-                    <br>
                     <input type="text" name="contraseña" placeholder="caracteres alfanumericos">                    
+                    <br>
+                <section class="botones">
 
-                    
+                    <button type="button" value="regresar" onclick="history.back()">Regresar</button>
+                    <button type="reset" value="reset">Borrar</button> 
+                    <button type="submit" value="enviar">Enviar</button>
+                </section>    
             </form>
         </section>
     </main>
