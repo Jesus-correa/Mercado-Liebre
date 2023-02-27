@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap'); 
 *{
     font-family: 'Roboto', sans-serif;
-    font: size 62.5%;
     margin:0px;
     padding:0px;
     box-sizing: border-box;
@@ -90,6 +89,7 @@ h3{
 
 footer{
     text-align:center;
+    margin: 10px 10px 10px 10px;
 
 }
 
@@ -114,8 +114,16 @@ br{
 
 }
 
+.contenedor-barra{
+    position: relative;
+}
 
-
+#lupa{
+    position: absolute;
+    right:5px;
+    top:2px
+    
+}
 @media (min-width:768px){
     .div-header{
         display: flex;
@@ -154,6 +162,7 @@ br{
     }
 
 }
+
 
 @media (min-width:1200px){
     .div-header, .nav-superior{
