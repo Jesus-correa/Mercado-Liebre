@@ -65,7 +65,10 @@ input, select{
     width:80vw;
     align-self: center;
 }
-
+main button:hover{
+    background-color: #0022AA;
+    color: #ebebeb;
+}
 
 @media (min-width:1200px){
     .Dato{
