@@ -184,7 +184,9 @@ br{
     }
 
 }
-
+#carrito:hover{
+    color:#39b54a
+}
 
 @media (min-width:1200px){
     .div-header, .nav-superior{

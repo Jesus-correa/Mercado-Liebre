@@ -66,6 +66,7 @@ input, select{
     align-self: center;
 }
 
+
 @media (min-width:1200px){
     .Dato{
         font-size: 0.8rem;
