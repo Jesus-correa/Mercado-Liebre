@@ -146,6 +146,12 @@ br{
     top:2px
     
 }
+main i:hover{
+    color:#39b54a
+}
+footer i{
+    color:#0760c0;
+}
 @media (min-width:768px){
     .div-header{
         display: flex;
@@ -183,9 +189,6 @@ br{
         width: 200px
     }
 
-}
-#carrito:hover{
-    color:#39b54a
 }
 
 @media (min-width:1200px){
