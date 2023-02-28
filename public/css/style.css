@@ -152,6 +152,7 @@ main i:hover{
 footer i{
     color:#0760c0;
 }
+
 @media (min-width:768px){
     .div-header{
         display: flex;
