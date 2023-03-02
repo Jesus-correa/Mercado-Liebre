@@ -58,6 +58,11 @@ main{
     font-weight: bold;
 }
 
+.enlace{
+    color:#0022AA;
+    text-decoration: none;
+}
+
 input{
     width:80vw;
     align-self: center;

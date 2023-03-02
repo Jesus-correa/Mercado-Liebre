@@ -11,7 +11,7 @@ app.use(express.static(publicPath))
 //Asignacion al puerto
 const port = process.env.PORT || 3000
 app.listen(3000,() => {
-    console.log("Funciona en puerto "+ port);
+    console.log("http://localhost:"+ port);
 });
 
 //Funcionalidad y asignacion del html raiz

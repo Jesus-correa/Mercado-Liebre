@@ -61,6 +61,12 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+.enlace{
+    color:#0022AA;
+    text-decoration: none;
+}
+
 input, select{
     width:80vw;
     align-self: center;
